@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>
+      Enter typicode fake api comment to get emails of commenters having .com in
+      email name
+    </h1>
+    <input type="text" id="search" />
+    <button onclick="getlinks()">Click here</button>
+    <div id="container"></div>
+  </body>
+  <script src="index2.js"></script>
+</html>
+
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container a {
+    display: block;
+  }
+  #search {
+    width: 25%;
+    height: 40px;
+  }
+</style>
